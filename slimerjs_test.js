@@ -4,7 +4,6 @@ fs.write(path, 'start\n', 'w');
 /*
  * первый клиент
  */
-for (var i = 0; i < 10; i++) {
 var webpage1 = require('webpage').create();
 var startTime1;
 
@@ -238,4 +237,3 @@ webpage5
 	    fs.write(path, content, 'a');
 	    console.log(content);
 	});	
-}
